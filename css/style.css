@@ -1,0 +1,240 @@
+@import url('typography.css');
+img{
+	max-width:100%;
+	height:auto;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#wrapper{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section{
+    width:100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+#header-wrap{  
+    width:100%;
+    background: url(../images/header-cover.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+}
+#header-content, #adopt-content, #protection-content{
+    width:73.125%;  /* 1170/1600 */
+    margin:0 auto;
+}
+#header-content{
+    padding: 40px 0 525px 0;
+}
+.header-menu{
+    justify-content: space-between;
+    height: auto;
+}
+.menu a{
+    margin-right: 40px;
+}
+.buttons a{
+margin-right: 30px;
+}
+
+.buttons nav a:last-child{
+    background: url(../images/apple.png) no-repeat;
+    background-position: 20px 45%;
+    padding:15px 25px 15px 45px;
+    margin-right: 0;
+    border-radius: 25px;
+}
+.buttons nav a:last-child:hover{
+    background: url(../images/apple-hover.png) no-repeat;
+    background-position: 20px 45%;
+    background-color: #267df4;
+    color:#ffffff;
+}
+.header-topic{
+    text-align: center;
+    padding-top: 140px;
+}
+.header-topic a, .protected-day a{
+    background:url(../images/play.png) no-repeat;
+    padding: 15px 25px 15px 45px;
+    background-position: 25px center;
+    border:1px solid #d9dadb;
+    border-radius: 25px;
+}
+#adopt-content{
+    justify-content: space-between;
+    height: auto;
+    padding: 120px 0 95px 0;
+    align-items:stretch;
+}
+.topic{
+    width: 48.72%;
+    padding: 0px 30px 0 38px;
+}
+.topic img{
+    margin-bottom: 45px;
+}
+#protection{
+    width: 100%;
+    background: url(../images/protection-hover.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+#protection-content{
+    height: auto;
+    justify-content: flex-end;
+    padding: 260px 0 230px 0;
+}
+.protected-day{
+    width: 40.171%;
+}
+.protected-day p:first-of-type{
+    margin-bottom: 36px;
+}
+.protected-day p:nth-of-type(2){
+    margin-bottom: 75px;
+}
+.protected-day a:first-of-type{
+    padding: 15px 45px 15px 25px;
+    background-position: 135px center;
+    margin-right: 22px;
+}
+.protected-day a:first-of-type:hover{
+    background: url(../images/play-hover.png) no-repeat;
+    background-position: 135px center;
+    background-color: #267df4;
+}
+
+.protected-day a:nth-of-type(2){
+    background: #ffffff00;
+    padding: 15px 25px 15px 25px;
+}
+.protected-day a:hover{
+    background-color: #267df4;
+    color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
+@media only screen and (max-width: 425px) {
+    .menu a{
+        margin-right: 20px;
+    }
+    .buttons a{
+    margin-right: 10px;
+    }
+    .buttons nav a:last-child{
+        padding:15px 15px 15px 28px;
+        background-position: 10px 45%;
+    }
+    .topic{
+        padding: 0px 10px 0 10px;
+    }
+    #adopt-content{
+        padding: 50px 0;
+    }
+    .protected-day a:first-of-type {
+        background: #ffffff00;
+        padding: 15px 25px 15px 25px;
+    }
+}
+/* TABLET */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+}
+/* AVARAGE */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+
+}
+/* DESKTOP */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+
+/* MY OWN */
+@media only screen and (max-width:1280px){
+    #protection-content {
+        justify-content: center;
+    }
+    .protected-day{
+        text-align: center;
+        }
+    .protected-day{
+        width:60%;
+    }
+
+}
+
+@media only screen and (max-width:1024px){
+    .header-menu{
+        flex-direction: column;
+    }
+    .logo{
+        margin: 10px 0;
+    }
+    .header-topic{
+        padding-top:80px;
+    }
+    .topic img{
+        margin-bottom: 20px;
+    }
+    #adopt-content{
+        justify-content: center;
+        
+    }
+    .first{
+        margin-bottom: 20px;
+    }  
+    #protection{
+        background-position: 20% center;
+    }
+
+
+}
+@media only screen and (max-width:768px){
+    #adopt-content{
+        flex-direction: column;
+    }
+    .topic {
+        width:100%;
+    }
+    .protected-day{
+        width:100%;
+    }
+    .protection-buttons{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+   
+
+
+}

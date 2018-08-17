@@ -1,0 +1,109 @@
+@font-face{
+    src: url(../fonts/Lato-Regular.ttf);
+    font-family: 'Lato', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+.menu a, .buttons a, .logo a{
+    color:black;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+.menu a, .buttons a{
+    text-transform: capitalize;
+}
+.logo a{
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+.logo a span{
+    font-weight: bold;
+}
+.buttons nav a:hover, .menu nav a:hover, .logo a:hover{
+    color: #267df4;
+}
+.header-topic h1{
+    font-size: 3.875em;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 40px;
+    color:#26272d;
+}
+.header-topic p{
+    font-size:1.25em;
+    font-family: 'Varela Round', sans-serif;
+    color:#8c8f94;
+    margin-bottom: 50px;
+}
+.header-topic a{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color:#26272d;
+}
+.header-topic a:hover{
+    color: #267df4;
+}
+.topic, .protected-day p{
+    color: #8c8f94;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+.topic h3{
+    font-size: 1.625em;
+    color: #26272d;
+    margin-bottom: 45px;
+}
+.topic p{
+    font-size:1.125em;
+    margin-bottom: 35px;
+}
+.protected-day h2{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.625em;
+    color:#26272d;
+    margin-bottom: 70px;
+}
+.protected-day p{
+    font-size: 1.25em;
+}
+.protected-day a{
+    color:#26272d;
+    font-size: 1em;
+}
+
+
+
+
+
+/* MOBILE */
+@media only screen and (max-width: 425px) {
+
+}
+/* TABLET */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+}
+/* AVARAGE */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+/* DESKTOP */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+/* MY OWN */
+@media only screen and (max-width:768px){
+    .header-topic h1{
+        font-size: 3em;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .topic h3{
+        margin-bottom: 20px;
+    }
+    .topic p{
+        margin-bottom: 15px;
+    }
+    
+}
