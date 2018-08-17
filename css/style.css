@@ -2,9 +2,15 @@
 img{
 	max-width:100%;
 	height:auto;
+<<<<<<< HEAD
 	background-color:#black;
 	fdsfsdfdsf
 	sdfdsfdsfds
+=======
+	background-color:#yellow;
+	sdfdsfsdfsd
+	dsfsddasdas
+>>>>>>> master
 }
 *{
     margin:0;
